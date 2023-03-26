@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 78px;
+}
+
+#password {
+    width: 62%;
+    height: 46px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+input[type="password"] {
+    font-size: 35px;
+}
+
+.pw-display-toggle-btn {
+    position: absolute;
+    right: 322px;
+    top: 161px;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.pw-display-toggle-btn i.fa-eye-slash {
+    display:none;
+}
+
+.pw-display-toggle-btn.active i.fa-eye-slash {
+    display:block;
+}
+
+.pw-display-toggle-btn.active i.fa-eye {
+    display:none;
 }
